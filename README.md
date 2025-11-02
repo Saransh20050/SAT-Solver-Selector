@@ -12,6 +12,7 @@ pip install -r requirements.txt
 
 Step 1: Generate Random 3-CNF Instances
 python generate_bulk_3sat.py
+( instances generated according to DIMAC CNF standards:    https://zenodo.org/records/15095752 )
 
 Step 2: Generate Sudoku-Based SAT Instances
 python generate_bulk_sudoku.py
